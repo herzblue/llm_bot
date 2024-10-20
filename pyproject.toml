@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "llm-bot"
+version = "0.1.0"
+description = ""
+authors = ["herzblue <herzblue@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.9"
+slack-bolt = "^1.20.1"
+langchain-openai = "^0.2.2"
+prompts = "^0.0.1"
+dotenv = "^0.0.5"
+langchain = "^0.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
